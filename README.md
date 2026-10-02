@@ -36,7 +36,8 @@ Profesional orientado a la optimización de procesos operativos y comerciales, i
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
 ### 🤖 Inteligencia Artificial y Visión por Computadora
-[![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
+[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)](https://cloud.google.com/)
+[![Gemini](https://img.shields.io/badge/Gemini_Enterprise-8E75B2?style=flat&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
@@ -54,28 +55,55 @@ Profesional orientado a la optimización de procesos operativos y comerciales, i
 
 ## 🎓 Formación Académica
 
-| Título / Grado | Institución | Año |
-| :--- | :--- | :---: |
-| **Ingeniero de Ejecución en Administración y Finanzas** | Instituto Profesional Virginio Gómez | 2010 |
+| Título / Grado | Institución | Año | Documento de Respaldo |
+| :--- | :--- | :---: | :---: |
+| **Ingeniero de Ejecución en Administración y Finanzas** | Instituto Profesional Virginio Gómez | 2010 | [Ver Título](./Titulo_Profesional_IP_Virginio_Gomez_Ingeniero_Ejecucion_Administracion_Finanzas_2010.jpg) |
 
 ---
 
 ## 📜 Certificaciones y Acreditaciones
 
+### ☁️ Google Cloud & Gemini Enterprise (GEAR Program)
+> **[Ver Perfil Oficial en Google Skills (Silver League · 2,248 pts)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8)**
+
+- **Model Armor: Securing AI Deployments** — *Google Cloud (Sep 2026)*  
+  [![Insignia](https://img.shields.io/badge/Google_Skills-Model_Armor-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/27621323)
+- **Gen AI: Beyond the Chatbot** — *Google Cloud (Sep 2026)*  
+  [![Insignia](https://img.shields.io/badge/Google_Skills-Gen_AI:_Beyond_Chatbot-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/27549789)
+- **Secure Enterprise AI Agents** — *Google Cloud (Sep 2026)*  
+  [![Insignia](https://img.shields.io/badge/Google_Skills-Secure_Enterprise_AI_Agents-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/27512911)
+- **Google Cloud Agent Governance and Security** — *Google Cloud (Sep 2026)*  
+  [![Insignia](https://img.shields.io/badge/Google_Skills-Agent_Governance_&_Security-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/27512517)
+- **Create Your First Gemini Enterprise Application** — *Google Cloud (Jul 2026)*  
+  [![Insignia](https://img.shields.io/badge/Google_Skills-Gemini_Enterprise_App-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/25425887)
+- **Enterprise Agents and Use Cases** — *Google Cloud (Jul 2026)*  
+  [![Insignia](https://img.shields.io/badge/Google_Skills-Enterprise_Agents-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/25425841)
+- **Agent Fundamentals** — *Google Cloud (Jul 2026)*  
+  [![Insignia](https://img.shields.io/badge/Google_Skills-Agent_Fundamentals-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/25425809)
+- **Introduction to AI Agents** — *Google Cloud (Jun 2026)*  
+  [![Insignia](https://img.shields.io/badge/Google_Skills-Intro_to_AI_Agents-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/24709973)
+
 ### 🐍 Programación y Procesamiento de Datos
-- **Capacitación Python Intermedio - Avanzado (30 hrs)** — *ASR Capacitación (2024)*
-- **Capacitación Python Básico y Procesamiento de Datos (30 hrs)** — *ASR Capacitación (2024)*
+- **Capacitación Python Intermedio - Avanzado (30 hrs)** — *ASR Capacitación (2024)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Certificado-ASR_Capacitación-3776AB?style=flat-square&logo=python&logoColor=white)](./Certificado_ASR_Capacitacion_Python_Intermedio_Avanzado_30h_2024.pdf)
+- **Capacitación Python Básico y Procesamiento de Datos (30 hrs)** — *ASR Capacitación (2024)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Certificado-ASR_Capacitación-3776AB?style=flat-square&logo=python&logoColor=white)](./Certificado_ASR_Capacitacion_Python_Basico_Proceso_Datos_30h_2024.pdf)
 
 ### 📈 Business Intelligence y Gestión de Información
-- **Power BI - Aplicación Práctica para Negocios (24 hrs)** — *SENCE (2018)*
-- **Excel - Manejo de Base de Datos y Gestión Avanzada (24 hrs)** — *SENCE (2018)*
+- **Power BI - Aplicación Práctica para Negocios (24 hrs)** — *SENCE (2018)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Certificado-SENCE_Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)](./Certificado_SENCE_Power_BI_Aplicacion_Practica_24h_2018.pdf)
+- **Excel - Manejo de Base de Datos y Gestión Avanzada (24 hrs)** — *SENCE (2018)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Certificado-SENCE_Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)](./Certificado_SENCE_Excel_Manejo_Base_de_Datos_24h_2018.pdf)
 
 ### 🌐 Desarrollo Web y Tecnologías Digitales
-- **Diseño Web con HTML5 + CSS (30 hrs)** — *SENCE / Fundación Telefónica (2019)*
+- **Diseño Web con HTML5 + CSS (30 hrs)** — *SENCE / Fundación Telefónica (2019)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Diploma-Fundación_Telefónica-E34F26?style=flat-square&logo=html5&logoColor=white)](./Diploma_SENCE_Fundacion_Telefonica_Diseno_Web_HTML5_CSS_30h_2019.pdf)
 
 ### 🛡️ Cumplimiento Normativo y Seguridad Laboral
-- **Gestión del Riesgo y Autocuidado ante Radiación UV (16 hrs)** — *SENCE (2025)*
-- **Prevención de Delitos en la Empresa - Ley N° 20.393 (12 hrs)** — *SENCE (2013)*
+- **Gestión del Riesgo y Autocuidado ante Radiación UV (16 hrs)** — *SENCE (2025)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Certificado-SENCE_Seguridad-FFA500?style=flat-square&logo=shield&logoColor=white)](./Certificado_SENCE_Radiacion_UV_Gestion_Riesgo_Autocuidado_16h_2025.pdf)
+- **Prevención de Delitos en la Empresa - Ley N° 20.393 (12 hrs)** — *SENCE (2013)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Certificado-SENCE_Ley_20.393-555555?style=flat-square&logo=shield&logoColor=white)](./Certificado_SENCE_Prevencion_Delitos_Ley_20393_12h_2013.pdf)
 
 ---
 
@@ -132,6 +160,8 @@ A continuación se destacan soluciones clave desarrolladas para la operación de
 
 ## 📬 Contacto y Perfiles
 
+[![Google Skills](https://img.shields.io/badge/Google_Skills-Silver_League-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8)
+[![GitHub](https://img.shields.io/badge/GitHub-FranciscoGrandon-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/FranciscoGrandon)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com)
 [![Email Corporativo](https://img.shields.io/badge/Email_Essbio-008FD3?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:francisco.grandon@essbio.cl)
 [![Email Personal](https://img.shields.io/badge/Email_Personal-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:grandonpanxo@gmail.com)
