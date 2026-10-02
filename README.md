@@ -101,6 +101,24 @@ Profesional orientado a la optimización de procesos operativos y comerciales, i
 - **Diseño Web con HTML5 + CSS (30 hrs)** — *SENCE / Fundación Telefónica (2019)*  
   [![Credencial](https://img.shields.io/badge/Ver_Diploma-Fundación_Telefónica-E34F26?style=flat-square&logo=html5&logoColor=white)](./Diploma_SENCE_Fundacion_Telefonica_Diseno_Web_HTML5_CSS_30h_2019.pdf)
 
+### 🏭 Gestión Operacional, Mantenimiento y Productividad
+- **Supervisor de Operaciones (61 hrs - Nota 8.75)** — *Fundación Carlos Slim / Capacítate para el Empleo (2023)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Certificado-Fundación_Carlos_Slim-005696?style=flat-square&logo=cplusplus&logoColor=white)](./Certificado_Fundacion_Carlos_Slim_Supervisor_de_Operaciones_61h_2023.pdf)
+- **Jefe de Mantenimiento (61 hrs - Nota 8.89)** — *Fundación Carlos Slim / Capacítate para el Empleo (2023)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Certificado-Fundación_Carlos_Slim-005696?style=flat-square&logo=cplusplus&logoColor=white)](./Certificado_Fundacion_Carlos_Slim_Jefe_de_Mantenimiento_61h_2023.pdf)
+- **Disciplina en el Trabajo (7 hrs - Nota 8.0)** — *Fundación Carlos Slim / Capacítate para el Empleo (2023)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Constancia-Fundación_Carlos_Slim-005696?style=flat-square&logo=cplusplus&logoColor=white)](./Constancia_Fundacion_Carlos_Slim_Disciplina_en_el_Trabajo_7h_2023.pdf)
+
+### 🔒 Ciberseguridad e Infraestructura Digital
+- **Técnico en Seguridad Informática: Análisis de Riesgos (65 hrs - Nota 8.8)** — *Fundación Carlos Slim / Capacítate para el Empleo (2023)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Certificado-Fundación_Carlos_Slim-005696?style=flat-square&logo=shield&logoColor=white)](./Certificado_Fundacion_Carlos_Slim_Tecnico_Seguridad_Informatica_Analisis_Riesgos_65h_2023.pdf)
+- **Cómputo Básico (18 hrs - Nota 8.0)** — *Fundación Carlos Slim / Capacítate para el Empleo (2023)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Constancia-Fundación_Carlos_Slim-005696?style=flat-square&logo=cplusplus&logoColor=white)](./Constancia_Fundacion_Carlos_Slim_Computo_Basico_18h_2023.pdf)
+
+### 💼 Contabilidad y Finanzas Empresariales
+- **Contabilidad Empresarial (9 hrs - Nota 9.0)** — *Fundación Carlos Slim / Capacítate para el Empleo (2023)*  
+  [![Credencial](https://img.shields.io/badge/Ver_Constancia-Fundación_Carlos_Slim-005696?style=flat-square&logo=cplusplus&logoColor=white)](./Constancia_Fundacion_Carlos_Slim_Contabilidad_Empresarial_9h_2023.pdf)
+
 ### 🛡️ Cumplimiento Normativo y Seguridad Laboral
 - **Gestión del Riesgo y Autocuidado ante Radiación UV (16 hrs)** — *SENCE (2025)*  
   [![Credencial](https://img.shields.io/badge/Ver_Certificado-SENCE_Seguridad-FFA500?style=flat-square&logo=shield&logoColor=white)](./Certificado_SENCE_Radiacion_UV_Gestion_Riesgo_Autocuidado_16h_2025.pdf)
