@@ -89,9 +89,34 @@ Profesional orientado a la optimización de procesos operativos y comerciales, i
 - **Capacitación Python Básico y Procesamiento de Datos (30 hrs)** — *ASR Capacitación (2024)*  
   [![Credencial](https://img.shields.io/badge/Ver_Certificado-ASR_Capacitación-3776AB?style=flat-square&logo=python&logoColor=white)](./Certificado_ASR_Capacitacion_Python_Basico_Proceso_Datos_30h_2024.pdf)
 
+### 📊 Microsoft Learn — Power BI, Power Apps & Data Analytics
+*Perfil Oficial:* [![Perfil Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn-FRANCISCO--GRANDON-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://learn.microsoft.com/es-es/users/FRANCISCO-GRANDON)
+
+#### 🏆 Trofeos de Rutas de Aprendizaje (Learning Paths)
+- **Get started with Microsoft data analytics** — *Microsoft Learn (Abr 2023)*  
+  [![Trofeo](https://img.shields.io/badge/Microsoft_Learn-Data_Analytics_Path-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://learn.microsoft.com/es-es/training/paths/data-analytics-microsoft/)
+- **Get started with Power BI** — *Microsoft Learn (Abr 2023)*  
+  [![Trofeo](https://img.shields.io/badge/Microsoft_Learn-Power_BI_Path-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://learn.microsoft.com/es-es/training/paths/get-started-power-bi/)
+
+#### 🎖️ Módulos e Insignias Acreditadas
+- **Describe Power BI Desktop models** — *Microsoft Learn (Abr 2023)*  
+  [![Insignia](https://img.shields.io/badge/Microsoft_Learn-Power_BI_Models-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://learn.microsoft.com/es-es/training/modules/dax-power-bi-models/)
+- **Analyze data with Power BI** — *Microsoft Learn (Abr 2023)*  
+  [![Insignia](https://img.shields.io/badge/Microsoft_Learn-Analyze_Data-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://learn.microsoft.com/es-es/training/modules/analyze-data-power-bi/)
+- **Get data with Power BI Desktop** — *Microsoft Learn (Abr 2023)*  
+  [![Insignia](https://img.shields.io/badge/Microsoft_Learn-Get_Data_Desktop-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://learn.microsoft.com/es-es/users/FRANCISCO-GRANDON/achievements#KSNG4KKB)
+- **Describe the capabilities of Microsoft Power BI** — *Microsoft Learn (Abr 2023)*  
+  [![Insignia](https://img.shields.io/badge/Microsoft_Learn-Power_BI_Capabilities-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://learn.microsoft.com/es-es/training/modules/introduction-power-bi/)
+- **Get started building with Power BI** — *Microsoft Learn (Abr 2023)*  
+  [![Insignia](https://img.shields.io/badge/Microsoft_Learn-Build_with_Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://learn.microsoft.com/es-es/training/modules/get-started-with-power-bi/)
+- **Explore what Power BI can do for you** — *Microsoft Learn (Abr 2023)*  
+  [![Insignia](https://img.shields.io/badge/Microsoft_Learn-Explore_Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)](https://learn.microsoft.com/es-es/users/FRANCISCO-GRANDON/achievements#WRDUWC4N)
+- **Discover data analysis** — *Microsoft Learn (Abr 2023)*  
+  [![Insignia](https://img.shields.io/badge/Microsoft_Learn-Discover_Data_Analysis-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://learn.microsoft.com/es-es/training/modules/data-analytics-microsoft/)
+- **Describe how to build applications with Microsoft Power Apps** — *Microsoft Learn (Abr 2023)*  
+  [![Insignia](https://img.shields.io/badge/Microsoft_Learn-Power_Apps_Intro-742774?style=flat-square&logo=powerapps&logoColor=white)](https://learn.microsoft.com/es-es/training/modules/introduction-power-apps/)
+
 ### 📈 Business Intelligence y Gestión de Información
-- **Microsoft Learn: Perfil Profesional & Analítica** — *Microsoft (2023 - Presente)*  
-  [![Perfil Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn-FRANCISCO--GRANDON-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://learn.microsoft.com/es-es/users/FRANCISCO-GRANDON)
 - **Power BI - Aplicación Práctica para Negocios (24 hrs)** — *SENCE (2018)*  
   [![Credencial](https://img.shields.io/badge/Ver_Certificado-SENCE_Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)](./Certificado_SENCE_Power_BI_Aplicacion_Practica_24h_2018.pdf)
 - **Excel - Manejo de Base de Datos y Gestión Avanzada (24 hrs)** — *SENCE (2018)*  
