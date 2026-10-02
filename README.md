@@ -90,6 +90,8 @@ Profesional orientado a la optimización de procesos operativos y comerciales, i
   [![Credencial](https://img.shields.io/badge/Ver_Certificado-ASR_Capacitación-3776AB?style=flat-square&logo=python&logoColor=white)](./Certificado_ASR_Capacitacion_Python_Basico_Proceso_Datos_30h_2024.pdf)
 
 ### 📈 Business Intelligence y Gestión de Información
+- **Microsoft Learn: Perfil Profesional & Analítica** — *Microsoft (2023 - Presente)*  
+  [![Perfil Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn-FRANCISCO--GRANDON-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://learn.microsoft.com/es-es/users/FRANCISCO-GRANDON)
 - **Power BI - Aplicación Práctica para Negocios (24 hrs)** — *SENCE (2018)*  
   [![Credencial](https://img.shields.io/badge/Ver_Certificado-SENCE_Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)](./Certificado_SENCE_Power_BI_Aplicacion_Practica_24h_2018.pdf)
 - **Excel - Manejo de Base de Datos y Gestión Avanzada (24 hrs)** — *SENCE (2018)*  
@@ -160,8 +162,10 @@ A continuación se destacan soluciones clave desarrolladas para la operación de
 
 ## 📬 Contacto y Perfiles
 
+[![Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn-FRANCISCO--GRANDON-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://learn.microsoft.com/es-es/users/FRANCISCO-GRANDON)
 [![Google Skills](https://img.shields.io/badge/Google_Skills-Silver_League-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8)
 [![GitHub](https://img.shields.io/badge/GitHub-FranciscoGrandon-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/FranciscoGrandon)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com)
 [![Email Corporativo](https://img.shields.io/badge/Email_Essbio-008FD3?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:francisco.grandon@essbio.cl)
+[![Email Outlook](https://img.shields.io/badge/Email_Outlook-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:francisco.grandon@outlook.com)
 [![Email Personal](https://img.shields.io/badge/Email_Personal-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:grandonpanxo@gmail.com)
