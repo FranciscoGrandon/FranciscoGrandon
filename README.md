@@ -8,7 +8,7 @@
 Concepción, Chile 🇨🇱
 
 [![GitHub](https://img.shields.io/badge/GitHub-FranciscoGrandon-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/FranciscoGrandon)
-[![Google Skills](https://img.shields.io/badge/Google_Skills-Silver_League_%C2%B7_2.248_pts-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8)
+[![Google Skills](https://img.shields.io/badge/Google_Skills-Silver_League_%C2%B7_2.664_pts-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8)
 [![Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn-FRANCISCO--GRANDON-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://learn.microsoft.com/es-es/users/FRANCISCO-GRANDON)
 [![Email](https://img.shields.io/badge/Contacto-francisco.grandon%40outlook.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:francisco.grandon@outlook.com)
 
@@ -56,6 +56,15 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 ---
 
 ## 🚀 Proyectos Destacados & Arquitectura de Ingeniería
+
+### 🗺️ [F-GIS 4.0 & OpenStreetMap Local Tile Server](https://github.com/FranciscoGrandon/fgis-osm-server)
+> **Servidor Local de Teselas XYZ y Visor GIS Interactivo Offline para Biobío y Ñuble**
+* **Problema:** Dependencia de conectividad a internet externa y cuotas restrictivas de APIs de mapas satelitales en aplicaciones de terreno y auditoría geográfica de redes de agua potable.
+* **Solución Técnica:** Servidor HTTP local de alta velocidad en Python (`osm-server`, puerto 8550) con base de datos SQLite pre-optimizada en modo WAL (`PRAGMA journal_mode=WAL`), que aloja más de 250.000 teselas OpenStreetMap pre-renderizadas (niveles de zoom 1 a 15) cubriendo 64 comunas de las Regiones del Biobío y Ñuble. Incluye visor web interactivo con Leaflet.js, medición de distancias geodésicas y búsqueda espacial instantánea.
+* **Impacto:** Autonomía 100% offline, latencia de renderizado cartográfico sub-milisegundo (< 5ms por tesela) y disponibilidad ininterrumpida para sistemas de monitoreo y aplicaciones móviles como MockGPSPro.
+* **Stack:** `Python` `SQLite (WAL mode)` `Leaflet.js` `OpenStreetMap (OSM)` `HTTP Local Server (Port 8550)`
+
+---
 
 ### 🔬 [SGL Vision Studio & Lab](https://github.com/FranciscoGrandon/sgl-vision-studio)
 > **Ecosistema On-Device & Desktop para Visión Artificial en Terreno**
@@ -129,14 +138,33 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 
 ---
 
+### 📊 [Antigravity Excel Engine](https://github.com/FranciscoGrandon/antigravity-excel-engine)
+> **Motor de Automatización Excel Nativo para Agentes de IA con Arquitectura Híbrida Win32 COM + OpenPyXL**
+* **Problema:** Los agentes de IA enfrentan bloqueos de concurrencia e inestabilidad al interactuar con Microsoft Excel: la automatización COM tradicional se bloquea si el usuario está editando celdas, mientras que las librerías headless (OpenPyXL) carecen de visibilidad y reactividad en tiempo real sobre libros abiertos.
+* **Solución Técnica:** Arquitectura híbrida desacoplada con daemon de servicio residente en segundo plano y canal de comunicación IPC mediante Named Pipes de Windows (`< 5ms` de latencia). Implementa detección automática de estado de interfaz (COM Live vs. headless), inmunidad total contra bloqueos de edición por interacción humana mediante colas asíncronas no bloqueantes y vectorización matricial para lecturas y escrituras atómicas de alto rendimiento.
+* **Impacto:** Eliminación absoluta del error RPC `0x80010001` (Call Rejected by Callee), rendimiento de procesamiento matricial hasta 20x más rápido frente a llamadas celda por celda COM y operación transparente para pipelines de agentes autónomos.
+* **Stack:** `Python 3.12` `Win32 COM (pywin32)` `Named Pipes IPC` `OpenPyXL` `Vectorización Matricial` `Antigravity CLI`
+
+---
+
+### ⚙️ [AgentPresets](https://github.com/FranciscoGrandon/agent-presets)
+> **Compilador y Gestor Declarativo de Directivas de Contexto para Agentes de Codificación IA**
+* **Problema:** La proliferación y mantenimiento de reglas de contexto en proyectos de IA produce degradación de prompts (*context rot*), colisiones de directivas entre agentes y sobrecarga de tokens por redundancia e inconsistencia en repositorios multi-agente.
+* **Solución Técnica:** Compilador declarativo de instrucciones y directivas de contexto sin dependencias externas (*zero-dependencies*). Gestiona fragmentos modulares inmutables basados en especificaciones YAML/Markdown, aplicando un motor de auto-recolección (*auto-harvesting*), deduplicación de directivas, validación sintáctica estricta y transpilación determinista hacia las ventanas de contexto objetivo de los agentes.
+* **Impacto:** Reducción del tamaño de directivas redundantes en el contexto de prompt, prevención de fallos de cumplimiento normativo en subagentes y despliegue instantáneo de perfiles operacionales sin fricción.
+* **Stack:** `Python 3.12` `Standard Library (Zero-Dependencies)` `YAML/Markdown Spec` `Context Compiler Engine` `CLI Automation`
+
+---
+
 ## 📜 Certificaciones & Acreditaciones Profesionales
 
-### 🧠 I. Inteligencia Artificial Empresarial, Agentes Autónomos & Ciberseguridad
+### 🧠 I. Inteligencia Artificial Empresarial, Redes, Ciberseguridad & Hardware
 
-> **[Perfil Oficial Google Skills (Silver League · 2,248 pts)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8)**
+> **[Perfil Oficial Google Skills (Silver League · 2.664 pts)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8)**
 
-| Certificación / Insignia | Emisor | Fecha | Acreditación Verificada |
+| Certificación / Insignia | Emisor | Fecha / Horas | Acreditación Verificada |
 | :--- | :--- | :---: | :---: |
+| **Digital Transformation with Google Cloud** | Google Cloud | Oct 2026 | [Ver Insignia Google Skills](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/28719869) |
 | **Model Armor: Securing AI Deployments** | Google Cloud (GEAR) | Sep 2026 | [Ver Insignia Google Skills](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/27621323) |
 | **Gen AI: Beyond the Chatbot** | Google Cloud (GEAR) | Sep 2026 | [Ver Insignia Google Skills](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/27549789) |
 | **Secure Enterprise AI Agents** | Google Cloud (GEAR) | Sep 2026 | [Ver Insignia Google Skills](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/27512911) |
@@ -145,8 +173,10 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 | **Enterprise Agents and Use Cases** | Google Cloud (GEAR) | Jul 2026 | [Ver Insignia Google Skills](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/25425841) |
 | **Agent Fundamentals** | Google Cloud (GEAR) | Jul 2026 | [Ver Insignia Google Skills](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/25425809) |
 | **Introduction to AI Agents** | Google Cloud (GEAR) | Jun 2026 | [Ver Insignia Google Skills](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/24709973) |
-| **Técnico en Seguridad Informática: Análisis de Riesgos (65 hrs)** | Fundación Carlos Slim | 2023 | [Ver Certificado PDF](./Certificado_Fundacion_Carlos_Slim_Tecnico_Seguridad_Informatica_Analisis_Riesgos_65h_2023.pdf) |
-| **Cómputo Básico (18 hrs)** | Fundación Carlos Slim | 2023 | [Ver Constancia PDF](./Constancia_Fundacion_Carlos_Slim_Computo_Basico_18h_2023.pdf) |
+| **Técnico en Redes de Datos** | Fundación Carlos Slim | 61 hrs · Nota 9.36 (2026) | [Ver Certificado PDF](./Certificado_Fundacion_Carlos_Slim_Tecnico_en_Redes_de_Datos_61h_2026.pdf)<br>[Verificar Folio: B2A3471C-5500-4709-AF4E-261230B60A71](https://capacitateparaelempleo.org/verifica/dbebcb0c-1d06-416e-8be6-b0023766f38f/b2a3471c-5500-4709-af4e-261230b60a71) |
+| **Técnico en Seguridad Informática: Análisis de Riesgos** | Fundación Carlos Slim | 65 hrs · 2023 | [Ver Certificado PDF](./Certificado_Fundacion_Carlos_Slim_Tecnico_Seguridad_Informatica_Analisis_Riesgos_65h_2023.pdf) |
+| **Arquitectura y Ensamblaje de PC** | CRECIC Educación Continua | 45 hrs · 2011 | [Ver Diploma PDF](./Diploma_CRECIC_Arquitectura_y_Ensamblaje_de_PC_45h_2011.pdf) |
+| **Cómputo Básico** | Fundación Carlos Slim | 18 hrs · 2023 | [Ver Constancia PDF](./Constancia_Fundacion_Carlos_Slim_Computo_Basico_18h_2023.pdf) |
 
 ---
 
@@ -166,8 +196,9 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 | **Explore what Power BI can do for you** | Microsoft Learn | Abr 2023 | [Ver Logro en Perfil](https://learn.microsoft.com/es-es/users/FRANCISCO-GRANDON/achievements#WRDUWC4N) |
 | **Discover data analysis** | Microsoft Learn | Abr 2023 | [Ver Módulo Oficial](https://learn.microsoft.com/es-es/training/modules/data-analytics-microsoft/) |
 | **Describe how to build applications with Power Apps** | Microsoft Learn | Abr 2023 | [Ver Módulo Oficial](https://learn.microsoft.com/es-es/training/modules/introduction-power-apps/) |
-| **Power BI - Aplicación Práctica para Negocios (24 hrs)** | SENCE | 2018 | [Ver Certificado PDF](./Certificado_SENCE_Power_BI_Aplicacion_Practica_24h_2018.pdf) |
-| **Excel - Manejo de Base de Datos y Gestión Avanzada (24 hrs)** | SENCE | 2018 | [Ver Certificado PDF](./Certificado_SENCE_Excel_Manejo_Base_de_Datos_24h_2018.pdf) |
+| **Excel Avanzado** | PRODEM Capacitación | 24 hrs · Nota 7.0 (2018) | [Ver Diploma PDF](./Diploma_PRODEM_Excel_Avanzado_Nota70_24h_2018.pdf) |
+| **Power BI - Aplicación Práctica para Negocios** | SENCE | 24 hrs · 2018 | [Ver Certificado PDF](./Certificado_SENCE_Power_BI_Aplicacion_Practica_24h_2018.pdf) |
+| **Excel - Manejo de Base de Datos y Gestión Avanzada** | SENCE | 24 hrs · 2018 | [Ver Certificado PDF](./Certificado_SENCE_Excel_Manejo_Base_de_Datos_24h_2018.pdf) |
 
 ---
 
@@ -181,16 +212,27 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 
 ---
 
-### 🏢 IV. Operaciones Industriales, Finanzas & Cumplimiento Normativo
+### 🏢 IV. Operaciones Industriales, Finanzas, Legislación & Gestión
 
-| Acreditación | Institución | Horas / Calificación | Credencial Verificada |
+| Acreditación / Programa | Institución | Horas / Detalle | Credencial Verificada |
 | :--- | :--- | :---: | :---: |
-| **Supervisor de Operaciones** | Fundación Carlos Slim | 61 hrs · Nota 8.75 | [Ver Certificado PDF](./Certificado_Fundacion_Carlos_Slim_Supervisor_de_Operaciones_61h_2023.pdf) |
-| **Jefe de Mantenimiento** | Fundación Carlos Slim | 61 hrs · Nota 8.89 | [Ver Certificado PDF](./Certificado_Fundacion_Carlos_Slim_Jefe_de_Mantenimiento_61h_2023.pdf) |
-| **Contabilidad Empresarial** | Fundación Carlos Slim | 9 hrs · Nota 9.00 | [Ver Constancia PDF](./Constancia_Fundacion_Carlos_Slim_Contabilidad_Empresarial_9h_2023.pdf) |
-| **Disciplina en el Trabajo** | Fundación Carlos Slim | 7 hrs · Nota 8.00 | [Ver Constancia PDF](./Constancia_Fundacion_Carlos_Slim_Disciplina_en_el_Trabajo_7h_2023.pdf) |
+| **Supervisor de Operaciones** | Fundación Carlos Slim | 61 hrs · Nota 8.75 (2023) | [Ver Certificado PDF](./Certificado_Fundacion_Carlos_Slim_Supervisor_de_Operaciones_61h_2023.pdf) |
+| **Jefe de Mantenimiento** | Fundación Carlos Slim | 61 hrs · Nota 8.89 (2023) | [Ver Certificado PDF](./Certificado_Fundacion_Carlos_Slim_Jefe_de_Mantenimiento_61h_2023.pdf) |
+| **Gestión Financiera** | SERCOTEC | Capacitación Empresarial · 2017 | [Ver Certificado PDF](./Certificado_Sercotec_Capacitacion_Gestion_Financiera_2017.pdf) |
+| **Contabilidad Simplificada** | SERCOTEC | Capacitación Empresarial · 2015 | [Ver Certificado PDF](./Certificado_Sercotec_Capacitacion_Contabilidad_Simplificada_2015.pdf) |
+| **Facturación Electrónica** | SERCOTEC | Capacitación Empresarial · 2015 | [Ver Certificado PDF](./Certificado_Sercotec_Capacitacion_Facturacion_Electronica_2015.pdf) |
+| **Contabilidad Empresarial** | Fundación Carlos Slim | 9 hrs · Nota 9.00 (2023) | [Ver Constancia PDF](./Constancia_Fundacion_Carlos_Slim_Contabilidad_Empresarial_9h_2023.pdf) |
+| **Optimización de Procesos** | SERCOTEC | Capacitación Empresarial · 2017 | [Ver Certificado PDF](./Certificado_Sercotec_Capacitacion_Optimizacion_de_Procesos_2017.pdf) |
+| **Gestión de Personas** | SERCOTEC | Capacitación Empresarial · 2019 | [Ver Certificado PDF](./Certificado_Sercotec_Capacitacion_Gestion_de_Personas_2019.pdf) |
+| **Legislación Laboral (Actualización)** | SERCOTEC | Capacitación Empresarial · 2023 | [Ver Certificado PDF](./Certificado_Sercotec_Capacitacion_Legislacion_Laboral_1_2023.pdf) |
+| **Legislación Laboral - Parte II** | SERCOTEC | Capacitación Empresarial · 2019 | [Ver Certificado PDF](./Certificado_Sercotec_Capacitacion_Legislacion_Laboral_Parte_II_2019.pdf) |
+| **Legislación Laboral - Parte I** | SERCOTEC | Capacitación Empresarial · 2017 | [Ver Certificado PDF](./Certificado_Sercotec_Capacitacion_Legislacion_Laboral_Parte_I_2017.pdf) |
+| **Técnicas de Servicio Orientadas al Cliente** | SERCOTEC | Capacitación Empresarial · 2019 | [Ver Certificado PDF](./Certificado_Sercotec_Capacitacion_Tecnicas_Servicio_Orientadas_al_Cliente_2019.pdf) |
+| **Seguro Social contra Accidentes (Ley N° 16.744)** | SERCOTEC | Capacitación Empresarial · 2015 | [Ver Certificado PDF](./Certificado_Sercotec_Capacitacion_Seguro_Social_Ley_16744_2015.pdf) |
+| **Inocuidad y Calidad Alimentaria** | SERCOTEC | Capacitación Empresarial · 2019 | [Ver Certificado PDF](./Certificado_Sercotec_Capacitacion_Inocuidad_y_Calidad_Alimentaria_2019.pdf) |
 | **Prevención de Delitos en la Empresa (Ley N° 20.393)** | SENCE | 12 hrs · 2013 | [Ver Certificado PDF](./Certificado_SENCE_Prevencion_Delitos_Ley_20393_12h_2013.pdf) |
 | **Gestión del Riesgo y Autocuidado ante Radiación UV** | SENCE | 16 hrs · 2025 | [Ver Certificado PDF](./Certificado_SENCE_Radiacion_UV_Gestion_Riesgo_Autocuidado_16h_2025.pdf) |
+| **Disciplina en el Trabajo** | Fundación Carlos Slim | 7 hrs · Nota 8.00 (2023) | [Ver Constancia PDF](./Constancia_Fundacion_Carlos_Slim_Disciplina_en_el_Trabajo_7h_2023.pdf) |
 
 ---
 
