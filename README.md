@@ -27,7 +27,9 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 ### 📌 Métricas de Impacto & Diferenciales Clave
 
 * 🚀 **100% de Trazabilidad & Auditoría Postal:** Diseño e implementación de motor híbrido (API REST/SOAP + CSV) para cruce y conciliación del 100% de la facturación postal certificada entre SAP, imprenta AMF y Correos de Chile.
-* 🗄️ **228 Consultas Analíticas Indexadas en SAP HANA:** Creación del catálogo maestro y CLI en Python (`QueryLibrary`) que estructura y parametriza el conocimiento operativo de medición, facturación y cortes.
+* 🗄️ **228 Consultas Analíticas Indexadas & Mapa Maestro de Tablas SAP HANA:** Creación del catálogo maestro y CLI en Python (`QueryLibrary`) que estructura y parametriza el conocimiento operativo de medición, facturación y cortes, interconectado con el mapa relacional exhaustivo de tablas (`MAPA_TABLAS_SAP.md`) para trazabilidad de punta a cabo.
+* 🏢 **Ecosistema RPA SAP GUI & Wiki Técnica de 81 Transacciones:** Arquitectura de automatización robótica desatendida sobre SAP ERP-ISU (64-bit) con custodia de una wiki modular de 81 transacciones favoritas inspeccionadas, generación de informes financieros avanzados y conciliación de la cadena logística-contable (MM/FI: contratos marco ZPCT, HES, pedidos, facturas y pagos).
+* 🛡️ **Gobernanza Criptográfica de Agentes (`ag_ops`):** Autor del motor CLI determinista con guardarraíles Merkle SHA-256 anti-sabotaje de tests (`witness-red` / `verify-green`), runlevels léxicos contra la lobotomía de contexto y linter estático AST en <15 ms.
 * 🦆 **Data Lakehouse Local Parquet & Motor DuckDB:** Diseño y administración del lago de datos columnar particionado por Hive (`D:\parquet\`, 2023–2026, 33 columnas unificadas y compresión Snappy), con pipeline de sincronización API multirregional y consultas OLAP sub-segundo en DuckDB, PyArrow y Polars.
 * 🥽 **Realidad Aumentada (AR) Local-First & Precisión GNSS:** Arquitectura y desarrollo de StrataAR, motor de visualización espacial procedural a 60 FPS sin dependencias privativas (~7.2 MB APK) con cálculo de incertidumbre física y anclaje anti-deriva.
 * 🌐 **Navegación Desatendida & Control Web WAI-ARIA (Browser Bridge v2.1.0):** Creador de Antigravity Browser Bridge Enterprise, puente MCP autónomo para Edge y Chrome (MV3) con catálogo de **40 herramientas nativas**, poda semántica de árbol WAI-ARIA (-40% a -60% tokens), perforación de Shadow DOM / IFrames same-origin, soporte de Network Idle y sesiones cifradas con HMAC/XOR en Windows Keyring.
@@ -44,13 +46,14 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 | **Lenguajes Core & Modernos** | `Python 3.12` `Java` `SQL (SAP HANA & SQLite)` `PowerShell` `HTML5 / CSS3` |
 | **Sistemas Operativos & Entornos** | `Linux (Debian / Ubuntu / Termux)` `UNIX` `MS-DOS` `Windows Server & Client` |
 | **Bajo Nivel, Algoritmia & Lenguajes Clásicos** | `C / C++` `Assembly (x86 / ASM)` `Turbo Pascal` `BASIC (QBasic / GW-BASIC)` `Fortran (FORTRAN 77 / 90)` `Prolog (Programación Lógica)` `CA-Clipper / Nantucket Clipper (xBase)` |
-| **Realidad Aumentada (AR) & Espacial** | `Motor AR Procedural (Canvas 2D/3D)` `Proyecciones ENU / Geodésicas` `GeoJSON` `KML 3D` `GPX` `Estimación MLE & GNSS Anti-Deriva` |
+| **Realidad Aumentada (AR) & Espacial** | `Motor AR Procedural (Canvas 2D/3D)` `MapLibre GL JS` `Three.js (WebGL2)` `Proyecciones ENU / Geodésicas` `GeoJSON` `KML 3D` `GPX` `Estimación MLE & GNSS Anti-Deriva` |
+| **Modelado 3D & Code-CAD Paramétrico** | `build123d` `CadQuery` `OpenCASCADE (OCCT / OCP)` `bd-warehouse` `trimesh` `STEP / STL / 3MF / GLB` `HLR Vector Blueprint` |
 | **Inteligencia Artificial & Edge Vision** | `TensorFlow Lite` `TensorFlow` `PyTorch` `Google SigLIP` `MobileNetV3` `Gemini Multimodal API` `OpenCV` |
 | **Sistemas Corporativos & Bases de Datos** | `SAP GUI Scripting API (Windows 64-bit)` `SAP HANA` `SAP ERP-ISU` `DuckDB` `Apache Parquet (Hive Partitioning)` `SQLite` `Cloudflare D1` |
 | **Data Analytics, OLAP & Business Intelligence** | `DuckDB Engine` `PyArrow` `Polars` `Pandas` `Microsoft Power BI` `DAX` `Microsoft Excel Avanzado` `Treeview GUI` |
 | **Mobile & Sistemas Distribuidos** | `Android SDK Nativo` `CameraX & CameraGPS` `OpenStreetMap (OSM)` `REST / SOAP APIs` `Telegram Bot API` |
 | **Navegación Web & Automatización Desatendida** | `Chromium Extensions (Manifest V3)` `Chrome DevTools Protocol (CDP)` `WAI-ARIA Semantic Tree` `WebSocket Hub` `Model Context Protocol (MCP 2.x)` `Selenium` |
-| **DevOps, Orquestación & Sandbox** | `Antigravity Multi-Agent CLI` `Win32 COM Automation` `Git & GitHub` `Termux Linux` `Process Sandboxing` |
+| **DevOps, Gobernanza & Orquestación de Agentes** | `ag_ops CLI Engine` `Merkle Guardrails` `Lexical Runlevels` `AST Static Linting (<15ms)` `Antigravity Multi-Agent CLI` `Win32 COM Automation` `Git & GitHub` `Termux Linux` `Process Sandboxing` |
 
 ---
 
@@ -80,12 +83,27 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 * **Impacto:** Automatización integral de la lectura con verificación visual y tolerancia a desconexión en terreno.
 * **Stack:** `Python` `FastAPI` `Gemini Vision API` `Android Native (Java)` `SQLite`
 
-#### 🥽 [StrataAR](https://github.com/FranciscoGrandon/strata-ar)
+#### 🥽 [StrataAR](https://github.com/FranciscoGrandon)
 > **Constructor y Visor Espacial de Realidad Aumentada (AR) Libre, 100% Offline y Multipropósito**
 * **Problema:** Las soluciones de Realidad Aumentada comercial dependen obligatoriamente de servicios privativos en la nube, cuentas forzadas, telemetría y bibliotecas pesadas de rastreo visual (ARCore) que limitan la autonomía en terreno, consumen batería excesiva y fallan en zonas rurales o sin cobertura.
 * **Solución Técnica:** Plataforma de software libre y arquitectura *local-first* para Android (API 26+) construida sobre un motor procedural en `android.graphics.Canvas` puro sin dependencias externas. Incorpora proyecciones ENU en tiempo real, renderizado de 9 geometrías tridimensionales facetadas a 60 FPS estables, cálculo de incertidumbre física combinada mediante propagación de error cuadrático medio GNSS y desviación angular con halos anti-deriva, y soporte nativo bidireccional para estándares geoespaciales (GeoJSON RFC 7946, KML 3D de Google Earth y GPX 1.1).
+* **Novedades v1.0.7:** Modo GPS 100% Real (eliminación total de simulación), telemetría permanente de precisión satelital métrica en vivo, zoom cartográfico hiper-detallado hasta Z21 con caché asíncrona de teselas, tipografía AR de alto contraste escalada dinámicamente (18sp a 40sp), flecha guía HUD de hito cercano y billboards fotográficos persistentes en almacenamiento privado.
 * **Impacto:** Huella ultraliviana (~7.2 MB APK compilado), autonomía soberana sin conexión a internet ni consumo de cuotas de nube, e inspección geoespacial de alta fidelidad para infraestructura civil e industrial.
-* **Stack:** `Android SDK (Java)` `Canvas 2D/3D Procedural` `ENU Projection Engine` `SQLite` `GeoJSON / KML / GPX` `GNSS Sensor Fusion`
+* **Stack:** `Android SDK (Java)` `Canvas 2D/3D Procedural` `ENU Projection Engine` `SQLite` `GeoJSON / KML / GPX` `GNSS Sensor Fusion` `Z12-Z21 Tile Cache`
+
+#### 🌐 [GIS Sanitario 3D Pro](https://github.com/FranciscoGrandon/gis-sanitario-3d-pro)
+> **Estación Desktop Offline-First de Infraestructura Hidráulica, Corte Estratigráfico 3D & Modelado Paramétrico B-Rep**
+* **Problema:** La inspección y catastro de redes sanitarias subterráneas (Agua Potable y Alcantarillado) se ve obstaculizada por la falta de visualización volumétrica de profundidad, dispersión de datos de medidores georreferenciados y desconexión entre planos 2D y el modelado físico real de activos en terreno.
+* **Solución Técnica:** Estación de trabajo de escritorio 100% Offline-First (`PyWebView` + `MapLibre GL JS` + `Three.js WebGL2` con `stencil: true`) integrada directamente con el kernel CAD industrial OpenCASCADE (`build123d` + `CadQuery`). Incorpora corte estratigráfico subterráneo continuo (0.0 m a -10.0 m) mediante `clippingPlanes`, motor LOD de 4 niveles con slider de radio GPU dinámico (50 m a 500 m) y `VRAM Guard`, conversión bidireccional WGS84 $\leftrightarrow$ UTM (husos 18S y 19S en 0 ms), federación en tiempo real con el Data Lakehouse Parquet SGL (`D:\parquet\`) vía DuckDB (< 100 ms) y corrección geodésica interactiva con Gizmo 3D.
+* **Impacto:** Catálogo activo de 7 familias de activos sanitarios B-Rep pre-validados topológicamente (`fitting_sanitario`, grifos NCh 1646, nichos domiciliarios, cámaras NCh 1623, válvulas y macromedidores), láminas técnicas ortogonales 2D vectoriales en 4 cuadrantes con HLR y bitácora técnica inmutable con pines 3D auto-caducables.
+* **Stack:** `Python 3.12 (PyWebView)` `MapLibre GL JS` `Three.js (WebGL2)` `build123d / CadQuery` `OpenCASCADE (OCCT)` `DuckDB` `Parquet Lakehouse` `SQLite WAL`
+
+#### ⚙️ [Code-CAD Build123d Golden Stack](https://github.com/FranciscoGrandon/code-cad-build123d)
+> **Entorno Profesional de Diseño Paramétrico de Ingeniería, Visualizador 3D en Tiempo Real y Exportación Multiformato**
+* **Problema:** Los sistemas CAD tradicionales de interfaz gráfica dependen de licencias comerciales restrictivas, carecen de versionamiento de código determinista para pipelines de agentes de IA y complican la generación automatizada de componentes industriales estandarizados.
+* **Solución Técnica:** Arquitectura moderna Code-CAD en Python puro sobre el kernel industrial OpenCASCADE (OCCT / OCP). Implementa API fluida basada en contextos (`BuildPart`, `BuildSketch`, `BuildLine`), operaciones booleanas deterministas, catálogo de componentes mecánicos normalizados (`bd-warehouse`), puente interactivo WebSocket con visor 3D embebido (`ocp-vscode` en puerto 3939) y motor de exportación simultánea resiliente (`exporter.py`).
+* **Impacto:** Flujo paramétrico reproducible y determinista para ingeniería sanitaria y manufactura, con generación automatizada a 4 formatos industriales clave: STEP (ISO 10303-21 para CAD/CAM), STL (impresión 3D de alta precisión con tolerancia de 0.001 mm), 3MF (manufactura aditiva) y GLB (visualización web y realidad aumentada).
+* **Stack:** `Python 3.12` `build123d` `cadquery-ocp (OpenCASCADE)` `bd-warehouse` `trimesh` `ocp-vscode (WebSockets / Three.js)` `STEP / STL / 3MF / GLB`
 
 #### 🛰️ [MockGPSPro](https://github.com/FranciscoGrandon/MockGPSPro)
 > **Simulador de Telemetría GPS Anti-Heurística con Visor OpenStreetMap en Vivo**
@@ -144,6 +162,18 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 * **Impacto:** Reducción del tamaño de directivas redundantes en el contexto de prompt, prevención de fallos de cumplimiento normativo en subagentes y despliegue instantáneo de perfiles operacionales sin fricción.
 * **Stack:** `Python 3.12` `Standard Library (Zero-Dependencies)` `YAML/Markdown Spec` `Context Compiler Engine` `CLI Automation`
 
+#### 🛡️ [ag_ops — CLI Engine for Agent Governance](https://github.com/FranciscoGrandon/ag-ops)
+> **Arnés Determinista de Gobernanza, Guardarraíles Merkle, Runlevels Léxicos & AST Linting para Agentes Autónomos**
+* **Problema:** Los agentes de IA autónomos son propensos a modificar o sabotear sus propios tests unitarios para forzar pases falsos, saturar la ventana de contexto inyectando miles de líneas de logs crudos, perder el estado de avance ante compactaciones bruscas (*200k-token lobotomy*) y violar restricciones estructurales de código.
+* **Solución Técnica:** Motor CLI ultra-rápido y 100% determinista escrito en Python puro (librería estándar, sin dependencias externas) que actúa como puente físico de control de integridad entre el agente y el sistema operativo. Estructurado en 5 módulos desacoplados:
+  * **`guard` (Merkle Tree & Lock):** Sella criptográficamente (SHA-256) el directorio de pruebas y certifica la fase inicial de fallo (`witness-red`), bloqueando y abortando con código 2 (`EACCES_TEST_TAMPERING`) si el agente intenta sabotear o alterar los tests al buscar el pase (`verify-green`).
+  * **`distill` (Aislamiento de Procesos & Filtro Regex):** Ejecuta compilaciones y suites con timeout, aislando grupos de subprocesos y reduciendo logs masivos únicamente al delta crítico estructurado.
+  * **`state` (Runlevels Lexicográficos 00..99):** Persistencia de fases y sellado Merkle de artefactos generados en disco (`.ag_state/NN_<slug>.json`), brindando inmunidad contra pérdidas de memoria en sesiones largas.
+  * **`ast-lint` (Linter Estático AST <15ms):** Análisis sintáctico estático ultra-rápido del árbol AST para verificar reglas de diseño, autoría requerida y generar grafos de llamadas en Graphviz DOT.
+  * **`regret-mine` (Minería Forense Git):** Análisis de regresiones y fallos históricos inspeccionando git diff y blame.
+* **Impacto:** Suite de pruebas con 100% de aprobación (6/6 tests passed), garantía matemática de no-sabotaje de tests en agentes y economía de contexto garantizada.
+* **Stack:** `Python 3.12 (Standard Library)` `ast Engine` `hashlib (Merkle Trees)` `subprocess Isolation` `Graphviz DOT` `JSON / CLI Architecture`
+
 ---
 
 ### 🏢 III. Data Engineering, SAP Corporativo & Auditoría Operacional
@@ -156,11 +186,14 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 * **Stack:** `DuckDB Engine` `Apache Parquet (Snappy)` `Hive Partitioning` `PyArrow` `Polars` `Python 3.12 (REST API Sync)` `Power BI`
 
 #### 🏢 [SAP GUI Automation](https://github.com/FranciscoGrandon/sap-automation)
-> **Automatización Robótica (RPA) Desatendida en SAP GUI ERP-ISU para Windows 64-bit**
-* **Problema:** La extracción manual de órdenes masivas (`IW39`, `ZDM_0050`) y reportes ALV en SAP ERP-ISU demanda cientos de horas-hombre y conlleva riesgos de error operacional.
-* **Solución Técnica:** Motor RPA en Python basado en la API COM oficial de SAP GUI Scripting, con **guardrails programáticos inquebrantables de sólo lectura** (`SapGuiClient`), bloqueo nativo de teclas peligrosas (VKey 11 / `Ctrl+S`), listas negras de transacciones y soporte de ejecución headless/background para subagentes.
-* **Impacto:** Automatización desatendida y resiliente de reportes críticos con cero incidentes de modificación de datos en producción.
-* **Stack:** `Python 3.12` `SAP GUI Scripting COM` `Win32` `Pandas` `Antigravity CLI`
+> **Ecosistema RPA Desatendido en SAP GUI ERP-ISU, Generación de Informes Financieros Avanzados & Custodia de la Wiki de 81 Transacciones**
+* **Problema:** La extracción y auditoría manual en SAP ERP-ISU mediante interfaces gráficas dynpro y reportes ALV demanda cientos de horas-hombre, carece de trazabilidad y enfrenta riesgos operacionales en producción, limitando la generación ágil de informes financieros y de control de contratos complejos.
+* **Solución Técnica:** Suite integral de automatización robótica (RPA) en Python 3.12 basada en la API oficial SAP GUI Scripting (64-bit), equipada con **guardrails programáticos inquebrantables de sólo lectura** (`SapGuiClient`), bloqueo a nivel de llamada de teclas de modificación (VKey 11 / `Ctrl+S`), sanitización estricta de T-Codes y autenticación desatendida mediante Windows Keyring.
+  * **Wiki Técnica Modular de 81 Transacciones Favoritas (`wiki_transacciones/`):** Inspección exhaustiva y documentación técnica estandarizada de 81 transacciones maestras clasificadas en 12 áreas de negocio (Lecturas, Medidores, Inspecciones, Clientes, PM, Bodega, Compras, Proyectos, Finanzas, Catastro). Cada ficha técnica detalla selectores jerárquicos dynpro (`wnd[0]/usr`), menús `mbar`, botones `tbar[1]` y atajos de layout (`Ctrl+F9`), optimizando la economía de contexto de agentes de IA en 2 pasos (`INDEX.md` $\to$ `<TCODE>.md`).
+  * **Informes Financieros Avanzados & Conciliación MM/FI:** Automatización de flujos financieros complejos multi-transacción y multi-tabla: trazabilidad completa desde Contratos Marco `ZPCT` (`EKKO`/`EKPO`) y catálogo jerárquico de servicios (`ESLL`), HES de servicios y pedidos derivados (`EKBE`), verificación de facturas MM (`RBKP`/`RSEG`), documentos contables FI (`BKPF`/`BSEG`, `FBL3N`, `FAGLB03`) hasta compensaciones bancarias efectivas (`BSAK`/`BSIK`), logrando la conciliación del 100% de pagos comerciales a proveedores estratégicos y generación de informes ejecutivos en Excel multi-pestaña.
+  * **Conexión Directa con el Mapa Maestro de Tablas SAP HANA (`MAPA_TABLAS_SAP.md`):** Interoperabilidad arquitectónica bidireccional entre la capa de presentación SAP GUI y la capa relacional SAP HANA (esquema `sapabap1`), permitiendo auditar visualmente en pantalla lo que el motor SQL procesa a nivel analítico masivo.
+* **Impacto:** Automatización desatendida de consultas operativas y financieras complejas (`IW39`, `ZDM_0050`, `ZBI_0096`, `ZFC_0100`, `FBL3N`, `CJ37`), reducción de tiempos de auditoría de días a minutos y garantía de cero modificaciones no autorizadas en mandantes productivos.
+* **Stack:** `Python 3.12` `SAP GUI Scripting API (Windows 64-bit)` `Win32 COM` `Pandas & OpenPyXL` `HANA Relational Mapping` `Antigravity CLI`
 
 #### 📦 [Trazabilidad de Despacho Postal Certificado](https://github.com/FranciscoGrandon/trazabilidad)
 > **Plataforma de Auditoría End-to-End con Sincronización API & Cruce Masivo**
@@ -186,6 +219,7 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 
 | Certificación / Insignia | Emisor | Fecha / Horas | Acreditación Verificada |
 | :--- | :--- | :---: | :---: |
+| **Machine Learning with Python Essentials** | Escuela de Postgrado y Educación Continua<br>FCFM · Universidad de Chile | 24 hrs · Nota 7.0 (Oct 2026) | [Ver Certificado PDF](./Certificado_FCFM_U_Chile_Machine_Learning_with_Python_Essentials_24h_Nota70_2026.pdf)<br>[Verificar Folio FCFM](https://app.fcfmonline.cl/certificates/7217451a1d404073a2bdc9658b20d596) |
 | **Digital Transformation with Google Cloud** | Google Cloud | Oct 2026 | [Ver Insignia Google Skills](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8/badges/28719869) |
 | **🎓 Diplomado: Técnico en Sistemas Informáticos** | Fundación Carlos Slim | 443 hrs · Nota 8.76<br>Inscripción: 13 Mar 2023 · Egreso: 18 Oct 2026 | [Ver Diplomado PDF](./Diplomado_Fundacion_Carlos_Slim_Tecnico_en_Sistemas_Informaticos_443h_2026.pdf)<br>[Verificar Folio: 18050792-2641-4373-BFBA-4348FE5A4D4B](https://capacitateparaelempleo.org/verifica/dbebcb0c-1d06-416e-8be6-b0023766f38f/18050792-2641-4373-bfba-4348fe5a4d4b) |
 | **Fundamentos de Machine Learning** | Fundación Carlos Slim | 50 hrs · Nota 8.80 (Oct 2026) | [Ver Certificado PDF](./Certificado_Fundacion_Carlos_Slim_Fundamentos_de_Machine_Learning_50h_2026.pdf)<br>[Verificar Folio: BB04CF19-034E-4962-8F7C-C51B3A710478](https://capacitateparaelempleo.org/verifica/dbebcb0c-1d06-416e-8be6-b0023766f38f/bb04cf19-034e-4962-8f7c-c51b3a710478) |
