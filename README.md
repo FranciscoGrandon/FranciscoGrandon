@@ -69,6 +69,15 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 
 ### 🧠 I. Inteligencia Artificial, Edge Vision & Sistemas Geoespaciales
 
+#### 🧪 [Estudio de Alucinaciones en LLMs (`estudios-alucinaciones-llm`)](https://github.com/FranciscoGrandon/estudios-alucinaciones-llm)
+> **Investigación Técnica, Guardrails Epistémicos Deterministas & Benchmark de Abstención Calibrada**
+* **Problema:** Los modelos de lenguaje (LLMs) sufren alucinaciones y claudicación sintáctica ante consultas fuera de distribución o sin fundamento empírico, generando respuestas falsas con alta confianza aparente.
+* **Solución Técnica:** Desarrollo del reporte técnico (*Statistical Inevitability, Syntactic Coercion, Latent Decoupling, and Epistemic Hysteresis*) acompañado de herramientas deterministas de control epistémico:
+  * **`epistemic_ops.py`:** CLI determinista con comandos `ontology-probe` y `anchor-check` para verificación estructural y anclaje ontológico.
+  * **`epistemic_guard.py`:** Middleware de 2 escalones con aislamiento de logprobs (`short_min_lp`) y abstención calibrada de Kalai.
+* **Impacto:** Validado mediante `run_10q_benchmark.py`, logrando reducir la tasa de alucinación/claudicación de **60.0% a 0.0%** y mejorando la utilidad de Kalai de **-1.40 a +0.90**.
+* **Stack:** `Python 3.12` `Epistemic Guardrails` `Logprobs Isolation (short_min_lp)` `Kalai Calibrated Abstention` `CLI Determinista`
+
 #### 🔬 [SGL Vision Studio & Lab](https://github.com/FranciscoGrandon/sgl-vision-studio)
 > **Ecosistema On-Device & Desktop para Visión Artificial en Terreno**
 * **Problema:** Los lectores de medidores en terreno capturan miles de imágenes bajo condiciones ambientales adversas (reflejos, nichos oscuros, suciedad), generando falsos positivos en el control de calidad.
@@ -91,15 +100,15 @@ Especializado en traducir problemáticas operativas complejas y grandes volúmen
 * **Impacto:** Huella ultraliviana (~7.2 MB APK compilado), autonomía soberana sin conexión a internet ni consumo de cuotas de nube, e inspección geoespacial de alta fidelidad para infraestructura civil e industrial.
 * **Stack:** `Android SDK (Java)` `Canvas 2D/3D Procedural` `ENU Projection Engine` `SQLite` `GeoJSON / KML / GPX` `GNSS Sensor Fusion` `Z12-Z21 Tile Cache`
 
-#### 🌐 [GIS Sanitario 3D Pro](https://github.com/FranciscoGrandon/gis-sanitario-3d-pro)
+#### 🌐 [GIS Sanitario 3D Pro (`gis-sanitario-3d-pro`)](https://github.com/FranciscoGrandon/gis-sanitario-3d-pro) *(Repositorio Privado)*
 > **Estación Desktop Offline-First de Infraestructura Hidráulica, Corte Estratigráfico 3D & Modelado Paramétrico B-Rep**
 * **Problema:** La inspección y catastro de redes sanitarias subterráneas (Agua Potable y Alcantarillado) se ve obstaculizada por la falta de visualización volumétrica de profundidad, dispersión de datos de medidores georreferenciados y desconexión entre planos 2D y el modelado físico real de activos en terreno.
 * **Solución Técnica:** Estación de trabajo de escritorio 100% Offline-First (`PyWebView` + `MapLibre GL JS` + `Three.js WebGL2` con `stencil: true`) integrada directamente con el kernel CAD industrial OpenCASCADE (`build123d` + `CadQuery`). Incorpora corte estratigráfico subterráneo continuo (0.0 m a -10.0 m) mediante `clippingPlanes`, motor LOD de 4 niveles con slider de radio GPU dinámico (50 m a 500 m) y `VRAM Guard`, conversión bidireccional WGS84 $\leftrightarrow$ UTM (husos 18S y 19S en 0 ms), federación en tiempo real con el Data Lakehouse Parquet SGL (`D:\parquet\`) vía DuckDB (< 100 ms) y corrección geodésica interactiva con Gizmo 3D.
 * **Impacto:** Catálogo activo de 7 familias de activos sanitarios B-Rep pre-validados topológicamente (`fitting_sanitario`, grifos NCh 1646, nichos domiciliarios, cámaras NCh 1623, válvulas y macromedidores), láminas técnicas ortogonales 2D vectoriales en 4 cuadrantes con HLR y bitácora técnica inmutable con pines 3D auto-caducables.
 * **Stack:** `Python 3.12 (PyWebView)` `MapLibre GL JS` `Three.js (WebGL2)` `build123d / CadQuery` `OpenCASCADE (OCCT)` `DuckDB` `Parquet Lakehouse` `SQLite WAL`
 
-#### ⚙️ [Code-CAD Build123d Golden Stack](https://github.com/FranciscoGrandon/code-cad-build123d)
-> **Entorno Profesional de Diseño Paramétrico de Ingeniería, Visualizador 3D en Tiempo Real y Exportación Multiformato**
+#### ⚙️ [Code-CAD Build123d Golden Stack (`code-cad-build123d`)](https://github.com/FranciscoGrandon/code-cad-build123d) *(Repositorio Privado)*
+> **Entorno Profesional de Diseño Paramétrico de Ingeniería, CLI Agent-Ready, Visualizador 3D en Tiempo Real y Exportación Multiformato**
 * **Problema:** Los sistemas CAD tradicionales de interfaz gráfica dependen de licencias comerciales restrictivas, carecen de versionamiento de código determinista para pipelines de agentes de IA y complican la generación automatizada de componentes industriales estandarizados.
 * **Solución Técnica:** Arquitectura moderna Code-CAD en Python puro sobre el kernel industrial OpenCASCADE (OCCT / OCP). Implementa API fluida basada en contextos (`BuildPart`, `BuildSketch`, `BuildLine`), operaciones booleanas deterministas, catálogo de componentes mecánicos normalizados (`bd-warehouse`), puente interactivo WebSocket con visor 3D embebido (`ocp-vscode` en puerto 3939) y motor de exportación simultánea resiliente (`exporter.py`).
 * **Impacto:** Flujo paramétrico reproducible y determinista para ingeniería sanitaria y manufactura, con generación automatizada a 4 formatos industriales clave: STEP (ISO 10303-21 para CAD/CAM), STL (impresión 3D de alta precisión con tolerancia de 0.001 mm), 3MF (manufactura aditiva) y GLB (visualización web y realidad aumentada).
