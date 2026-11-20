@@ -8,7 +8,7 @@
 Concepción, Chile 🇨🇱
 
 [![GitHub](https://img.shields.io/badge/GitHub-FranciscoGrandon-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/FranciscoGrandon)
-[![Google Skills](https://img.shields.io/badge/Google_Skills-Silver_League_%C2%B7_2.664_pts-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8)
+[![Google Skills](https://img.shields.io/badge/Google_Skills-Silver_League_%C2%B7_4.010_pts-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://www.skills.google/public_profiles/abcdc188-a406-4f46-90e2-0ba40e67b3c8)
 [![Microsoft Learn](https://img.shields.io/badge/Microsoft_Learn-FRANCISCO--GRANDON-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://learn.microsoft.com/es-es/users/FRANCISCO-GRANDON)
 [![Email](https://img.shields.io/badge/Contacto-francisco.grandon%40outlook.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:francisco.grandon@outlook.com)
 
